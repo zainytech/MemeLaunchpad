@@ -1,0 +1,94 @@
+.ct-main{
+    width:100%;
+    background-color:#FAF9FA
+
+}
+.ct-main-container{
+    /* border:red solid 1px; */
+    padding-top:5rem;
+    margin-left:15rem;
+    margin-right:2rem;
+}
+.ct-main2{
+    background-color:white;
+    margin-top:2rem;
+    border:#e8e8e9 solid 1px;
+    border-radius: 0.5rem;
+
+}
+.ct-main2-container{
+    margin-left:1rem;
+    margin-right:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+
+}
+.ct-main2-div1{
+    /* border:red solid 1px; */
+    position: relative;
+    margin-top:1rem;
+}
+.ct-main2-div1-txt1{
+    color:#F95192;
+    font-size: 12px;
+    display:block;
+    padding-bottom:1rem;
+}
+.ct-main2-div1-txt2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.ct-main2-div1a{
+    /* border:green solid 1px; */
+    margin-right:0.5rem;
+    margin-top:0.5rem;
+}
+.ct-main2-div1a select{
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    width:100%;
+    margin-right:1rem;
+}
+.ct-main2-div1b{
+    color: rgb(50, 152, 220);
+    font-size: 12px;
+}
+.ct-main2-div1a input{
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    width:100%;
+    margin-right:1rem;
+}
+.ct-main2-div2{
+    margin-top: 1rem;
+    text-align: center;
+}
+.ct-main2-div2 button{
+    border:black solid 1px;
+    padding:0.5rem 1rem;
+    background-color:#F3F3F4;
+    color:black;
+    border-radius:0.5rem;
+    margin:auto;
+}
+.ct-main3{
+    padding-top:5rem;
+    padding-bottom:5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 920px) {
+    .ct-main-container{
+        padding-top:5rem;
+        margin-left:2rem;
+    }
+}
+@media screen and (max-width: 550px){
+    .cl-main-container{
+        margin-left:1rem;
+        margin-right:1rem;
+    }
+    .ct-main2-div1 label{
+        font-size: 12px;
+    }
+}

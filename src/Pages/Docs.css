@@ -1,0 +1,241 @@
+.dhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    padding: 0 3rem;
+    height: 5rem;
+    position: relative;
+}
+.dhead1{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.dhead1 img{
+    /* width: 2.7rem; */
+}
+.dhead1 div{
+    font-weight: 620;
+    font-size: 1.2rem;
+    color: rgb(247, 63, 94);
+}
+.dhead2{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+  }
+.dhead2 div{
+    font-weight: 600;
+    font-size: 1.13rem;
+    color: rgb(247, 63, 94);
+}
+.dhead2 input{
+    width: 13rem;
+    height: 1.5rem;
+    border-radius: .4rem;
+    outline: none;
+    padding: .2rem .5rem;
+}
+.docsmain{
+    display: flex;
+}
+.doc1{
+    width: 22%;
+    border-right: 1px solid black;
+    overflow: auto;
+    height: 80vh;
+    padding: 1rem 0;
+}
+.doc1 a{
+    width: 84%;
+    margin: .1rem auto;
+    padding: .34rem .6rem;
+    font-size: .9rem;
+    font-weight: 550;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.doc1 div{
+    width: 84%;
+    margin: .1rem auto;
+    padding: .34rem .6rem;
+    font-size: .94rem;
+    font-weight: 650;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.doc1 .active{
+    background-color: #FCF3F6;
+    color: #F9649E !important;
+}
+.doc2{
+    width: 78%;
+    overflow: hidden;
+    padding: 1rem 0;
+}
+.doc2-margin{
+    width: 84%;
+    margin: 1rem auto;
+}
+.doc22{
+    border: 1px solid rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .9rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.doc22 .doc22-col1 div{
+    margin-bottom: -.6rem;
+    opacity: .8;
+    font-size: .9rem;
+}
+.doc22 .doc22-col1 h4{
+    margin-top: .6rem;
+    margin-bottom: .2rem;
+}
+.doc22-icon{
+    font-size: 1.5rem;
+}
+
+.doc22:hover h4{
+    color: #F9649E;
+}
+.doc22:hover .doc22-icon{
+    color: #F9649E;
+}
+.doc22:hover{
+    border: 1px solid #F9649E;
+}
+.doc2 h1{
+    margin-bottom: 2.6rem;
+}
+.doc2-margin div{
+    font-size: 1rem;
+    text-align: justify;
+}
+.doc22{
+    margin-top: 3.5rem;
+    width: 44%;
+    text-decoration: none;
+    color: black;
+}
+.doc22-flex{
+    display: flex;
+    gap: 1.6rem;
+}
+.doc2-margin ul li a{
+    color: #F9649E;
+}
+.doc112{
+    background-color: rgb(253, 244, 244);
+    position: absolute;
+    top: 80%;
+    width: 60%;
+    left: 0;
+    height: 50rem;
+    color: #F9649E;
+    border-right: 1px solid black;
+    overflow: auto;
+    padding: 1rem 0;
+    z-index: 99999;
+    display: none;
+  }
+  .doc112 a{
+    width: 84%;
+    margin: .1rem auto;
+    padding: .34rem .6rem;
+    font-size: .9rem;
+    font-weight: 550;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    z-index: 9999;
+}
+.cross{
+    font-size: 1.5rem;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.doc112 div{
+    width: 84%;
+    margin: .1rem auto;
+    padding: .34rem .6rem;
+    font-size: .94rem;
+    font-weight: 650;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.bars{
+    font-size: 1.3rem;
+    margin-right: .6rem;
+    color: #F9649E;
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+    .dhead{
+        padding: 0 1rem;
+        height: 4.5rem;
+    }
+    .bars{
+        display: block;
+    }
+    .docsmain .doc1{
+        display: none;
+    }
+    .dhead1 div{
+        font-weight: 600;
+        font-size: 1.15rem;
+    }
+    .dhead1{
+        gap: .5rem;
+
+      }
+      .doc22-flex{
+        flex-direction: column;
+        gap: .001rem;
+        margin-top: 3rem;
+      }
+      .doc22{
+        margin-top: .9rem;
+        width: 94%;
+        text-decoration: none;
+        color: black;
+    }
+     
+      .dhead1 img{
+          /* width: 2.2rem; */
+      }
+      .dhead2 input{
+        width: 7rem;
+    }
+    .dhead2 div{
+        display: none;
+    }
+    .doc2{
+        overflow: hidden;
+        width: 96%;
+        margin: .4rem auto;
+    }
+    .doc2-margin{
+        width: 92%;
+    }
+    .doc112{
+        display: block;
+    }
+    
+    
+}

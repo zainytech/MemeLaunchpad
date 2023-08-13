@@ -1,0 +1,88 @@
+.lockp{
+    display: flex;
+}
+.lockp1{
+    width: 14%;
+    border-right: 1px solid black;
+}
+.lockp2{
+    width: 80%;
+    padding: 5.5rem 3rem 2rem 3rem;
+    background-color: #FAF9FA;
+}
+.lockp2-col1{
+    background-color: #EBF8F2;
+    padding: 1rem;
+    border-radius: .6rem;
+}
+.lockp2-col1 div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .4rem;
+    margin-top: -.8rem;
+}
+.lockp2-col1 div img{
+    width: 7rem;
+    cursor: pointer;
+}
+.lockp2-img{
+    background-color: black;
+    padding: .2rem .4rem;
+}
+.lockp2-img1{
+    background-color: rgb(12, 46, 238);
+    padding: .2rem .4rem;
+}
+.lockp2 .aircrt21-col2{
+    margin-top: 1.4rem;
+}
+.lockp2 .aircrt21-col2 input{
+    width: 98%;
+    margin: .1rem auto;
+}
+.lockp2-col2{
+    margin-top: .4rem;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    font-weight: 450;
+}
+.lockp2 .hom24{
+    padding-top: 6rem;
+}
+.lockp2 .msend22{
+    width: 97%;
+    margin: 2rem auto 1rem auto;
+}
+
+@media screen and (max-width: 920px) {
+    .lockp{
+        display: block;
+        overflow: hidden;
+    }
+    /* .lockp1{
+        display: none;
+        width: 0;
+    } */
+    .lockp2{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .lockp2 .aircrt21{
+        width: 90%;
+        margin: .1rem auto;
+        /* padding: 1rem .2rem; */
+        padding: 1rem .6rem;
+    }
+    .lockp2-col2{
+        width: 98%;
+        margin: .1rem auto;
+    }
+    .lockp2 .aircrt21-col2 input{
+        width: 92%;
+    }
+    .lockp2 .msend22{
+        width: 92%;
+    }
+}

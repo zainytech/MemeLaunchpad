@@ -1,0 +1,64 @@
+.antibot{
+    display: flex;
+}
+.anti1{
+    width: 14%;
+    border-right: 1px solid black;
+}
+.anti2{
+    width: 80%;
+    padding: 5.5rem 3rem 2rem 3rem;
+    background-color: #FAF9FA;
+}
+.anti2col1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;   
+}
+.anti2 .aircrt21-col5{
+    margin: 0;
+    padding: 0;
+    margin-right: -3rem; 
+}
+.anti2 .aircrt21-col5 button{
+    width: 7rem;
+    background-color: white;
+}
+.anti2 .aircrt21-col4{
+    margin-bottom: .7rem;
+}
+.anti2 .aircrt21-col3{
+    margin-top: -.5rem;
+}
+.anti2 .aircrt21-col3 a{
+    text-decoration: none;
+    color: rgb(221, 36, 67);
+}
+.anti2 .hom24{
+    padding-top: 9rem;
+}
+
+@media screen and (max-width: 920px) {
+    .antibot{
+        display: block;
+        overflow: hidden;
+    }
+    /* .anti1{
+        display: none;
+        width: 0;
+    } */
+    .anti2{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .anti2 .aircrt21{
+        width: 86%;
+        margin: .1rem auto;
+    }
+    .anti2 .aircrt21-col5{
+        margin: 0;
+        padding: 0;
+        margin-right: 2.2rem; 
+    }
+}

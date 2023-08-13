@@ -1,0 +1,64 @@
+.psale{
+    display: flex;
+}
+.psale1{
+    width: 14%;
+    border-right: 1px solid black;
+}
+.psale2{
+    width: 80%;
+    padding: 5.5rem 3rem 2rem 3rem;
+    background-color: #FAF9FA;
+}
+.psale2 .msend21 .msend12-col1{
+    width: 16%;
+    padding-bottom: 5rem;
+}
+.psale2 .msend21 .msend12-col1 h6{
+    font-size: .9rem;
+}
+.psale2 .aircrt21{
+    margin-top: 3.6rem;
+}
+.psale21{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+.psale21-col1{
+    margin-top: -.6rem;
+}
+.psale2 .hom24{
+    padding-top: 6rem;
+}
+
+@media screen and (max-width: 920px) {
+    .psale{
+        display: block;
+        overflow: hidden;
+    }
+    /* .psale1{
+        display: none;
+        width: 0;
+    } */
+    .psale2{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .psale2 .msend21{
+        flex-direction: column;
+        gap: .2rem;
+        width: 98%;
+    }
+    .psale2 .msend21 .msend12-col1{
+        width: 98%;
+        padding-bottom: .5rem;
+    }
+    .psale2 .msend12-col12{
+        width: 90%;
+        height: max-content;
+    }
+}

@@ -1,0 +1,131 @@
+.msend{
+    display: flex;
+}
+.msend1{
+    width: 14%;
+    border-right: 1px solid black;
+}
+.msend2{
+    width: 80%;
+    padding: 5.5rem 3rem 2rem 3rem;
+    background-color: #FAF9FA;
+}
+.msend21{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.msend12-col1{
+    width: 22%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .6rem;
+}
+.msend12-col11{
+    width: 22%;
+}
+.msend12-col11 div{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background-color: #F95192;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    font-size: 1.1rem;
+}
+.msend12-col12{
+    width: 86%;
+    height: 20vh;
+}
+.msend12-col12 h6{
+    margin-bottom: .01rem;
+    font-size: 1.02rem;
+}
+.msend12-col12 div{
+    font-size: .9rem;
+    margin-top: -.01rem;
+    opacity: .8;
+}
+.msend2 .aircrt21-col3{
+    margin-top: -.7rem;
+}
+.msend2 .aircrt21-col2{
+    margin-top: 2rem;
+}
+.msend2 .aircrt21-col5{
+    width: 50%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: .8rem;
+}
+.msend2 .aircrt21-col5 button{
+    width: 12rem;
+}
+.msend2 .aircrt21-col5 .aircrt21-col4{
+    margin-top: -.6rem;
+}
+.msend22{
+    background-color: #FFFBE6;
+    border: 1px solid #c4a50d;
+    width: 94%;
+    padding: .4rem .76rem;
+    border-radius: .2rem;
+    margin-top: 1.4rem;
+}
+.msend23{
+    margin: 1rem auto;
+    width: 10%;
+}
+.msend23 button{
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(202, 202, 202);
+}
+.msend2 .hom24{
+    padding-top: 6rem;
+}
+
+
+@media screen and (max-width: 920px) {
+    .msend{
+        display: block;
+        overflow: hidden;
+    }
+    /* .msend1{
+        display: none;
+        width: 0;
+    } */
+    .msend2{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .msend21{
+        width: 96%;
+        margin: .1rem auto;       
+    }
+    .msend2 .msend12-col1{
+        width: 42%;
+        gap: .6rem;
+        padding: .2rem;
+    }
+    .msend2 .aircrt21-col2{
+        width: 94%;
+        margin: .1rem auto;
+    }
+    .msend2 .aircrt21-col5{
+        width: 94%;
+        margin: .7rem auto;
+    }
+    .msend22{
+        width: 88%;
+        margin: 1.8rem auto;
+    }
+}
